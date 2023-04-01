@@ -34,7 +34,7 @@ public class Main {
     private static StringBuilder numberOfFours  = new StringBuilder();
     private static StringBuilder numberOfFives  = new StringBuilder();
     private static StringBuilder numberOfSixes  = new StringBuilder();
-    private static StringBuilder outputBuilder  = new StringBuilder("\n");
+    private static StringBuilder outputBuilder  = new StringBuilder("\n"); // The newline ecape char will be the first char in the output.
 
     private static int result = 0b00000000;
     
