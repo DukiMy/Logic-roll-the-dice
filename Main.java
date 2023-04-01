@@ -27,13 +27,13 @@ public class Main {
     private final static byte IS_FIVE    = 0b00000101;
     private final static byte IS_SIX     = 0b00000110;
     private final static String OUTPUT_TEMPLATE = """
-        1: %s
-        2: %s
-        3: %s
-        4: %s
-        5: %s
-        6: %s
-            """;
+                                                        1: %s
+                                                        2: %s
+                                                        3: %s
+                                                        4: %s
+                                                        5: %s
+                                                        6: %s
+                                                 """;
  
     private static String finalOutput = "";
     private static long numberOfThrows   = 0b00000000;
