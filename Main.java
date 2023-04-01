@@ -5,6 +5,8 @@
  * This is an excercise that was done at LTU.
  * 
  * The values are all in binary, this is to make it as efficient as I know how.
+ * 
+ * Result: I made this blazingly fast, I'm quite impressed. Thanks for the help GPT-4.
  */
 
 import static java.lang.System.out;
@@ -73,7 +75,7 @@ public class Main {
             }
 
             // At the end of each loop, output the value of the 'dice'.
-            outputBuilder.append(result + " ");
+            outputBuilder.append(result).append(" ");
         }
 
         // Format a string with the output template and all the variables holding pointmarkers and set it to the variable 'finalOutput'.
